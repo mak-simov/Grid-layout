@@ -29,7 +29,8 @@
 .cities__third-photo {
   background-image: url("../Img/1st-section/image-3.jpg");
   background-repeat: no-repeat;
-  width: 770px;
+  width: 100%;
+  max-width: 770px;
   height: 370px;
   border-radius: 20px;
   grid-area: photo3;
@@ -46,7 +47,8 @@
 .cities__fifth-photo {
   background-image: url("../Img/1st-section/5.jpg");
   background-repeat: no-repeat;
-  width: 370px;
+  width: 100%;
+  max-width: 370px;
   height: 370px;
   border-radius: 20px;
   grid-area: photo5;
@@ -54,7 +56,8 @@
 .cities__sixth-photo {
   background-image: url("../Img/1st-section/6.jpg");
   background-repeat: no-repeat;
-  width: 770px;
+  width: 100%;
+  max-width: 770px;
   height: 370px;
   border-radius: 20px;
   grid-area: photo6;
@@ -124,6 +127,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "photo1 photo2 photo3" "photo4 photo2 photo5" "photo6 photo7 photo5" "photo6 photo8 photo8" "photo9 photo9 photo10";
+  margin-bottom: 120px;
 }
 .people__first-photo {
   background-image: url("../Img/3d-section/1.jpg");
@@ -225,6 +229,7 @@ body {
   width: 100%;
   max-width: 1170px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .grid {
@@ -259,6 +264,7 @@ body {
   line-height: 23px;
   color: #FFFFFF;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .date {
@@ -269,4 +275,5 @@ body {
   line-height: 23px;
   color: #E0E0E0;
   margin-right: 20px;
+  margin-bottom: 20px;
 }

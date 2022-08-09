@@ -10,6 +10,7 @@ body {
     width: 100%;
     max-width: $content-width;
     text-align: center;
+    margin: 0 auto;
 }
 
 .grid {
@@ -44,6 +45,7 @@ body {
     line-height: 23px;
     color: $white-deefault;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .date {
@@ -54,6 +56,7 @@ body {
     line-height: 23px;
     color: $secondary; 
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 
